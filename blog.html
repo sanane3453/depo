@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aden</title>
+    
+    <link rel="stylesheet" type="text/css" href="blog.css">
+</head>
+<body class="dark">
+	<div id="menu">
+        <ul>
+          <li><a class="an" href="#">ANASAYFA</a></li>
+          <li><a class="na" href="#">Hakkımda</a></li>
+          <li><a class="ha" href="#">İletişim</a></li>
+          <li><a class="ah" href="#">Giriş Yap</a></li>
+          
+        </ul>
+    </div>
+    <div class="hakkımda">
+       <div class="içerik-1">
+          <div class="lorem-1">
+            <h1>neden yazılım ögrenmeye çalışıyorum</h1>
+            <b>yazılımda güzel para oldugunu duşunuyorum ve çalışmaya devam edıyorum amacım sadece 
+              para kazanmak  2 ayda html css ile bunu yapabıldım devamınıda yapmayı planlıyorum :D </b>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam et reprehenderit odio dolores eius odit, ullam reiciendis eos expedita doloribus quidem quis dolore consectetur, velit cupiditate iure facere totam possimus?</p>   
+            <img class="resim" src="küfürbaz haydo.jfif" title="amaçsız koydum bunu :D">
+            
+          </div>
+
+       </div>
+    </div>
+    <div class="iletişim">
+       <div class="içerik-2">
+        <form action="https://formspree.io/f/mbjwoakv" method="post"> <!-- your@email.com yerine kendi mail adresimizi yazıyoruz. -->
+          <div class="input-block">
+              <label for="contact_author">
+                  <strong>Ad Soyad</strong></label>
+              <input type="text" name="contact_author" id="contact_author" required>
+          </div>
+          <div class="input-block">
+              <label for="_replyto">
+                  <strong>E-Posta Adresi</strong></label>
+              <input type="email" name="_replyto" id="_replyto" required>
+          </div>            
+          <div class="input-block">
+              <label for="contact_subject">
+                  <strong>İleti Konusu</strong></label>
+              <input type="text" name="contact_subject" id="contact_subject" required>
+          </div>
+          <div class="textarea-block">
+              <label for="contact_content">
+                  <strong>İleti</strong></label>
+              <textarea name="contact_content" id="contact_content" required></textarea>
+          </div>
+          <input type="hidden" name="_next" value="https://site.io/thanks.html"> <!-- Form formspree.io adresine gönderildikten sonra tekrar sitenize dönüş yapılarak sitenizdeki thanks.html dosyasının görüntülenmesini sağlıyor. -->
+          <input type="submit" value="GÖNDER">
+      </form>
+
+       </div>
+    </div>
+    <div class="footer">
+      <footer id="footer" class="altkısım">
+        <a>tüm hakları saklıdır</a>
+        <b>Aden Kılıç Tarafından Kodlanmıştır</b>
+      </footer>
+    </div>
+</body>
+</html>
